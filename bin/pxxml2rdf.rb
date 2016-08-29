@@ -327,8 +327,10 @@ def xml2rdf(xml)
         
         # authors
         article.elements.each('AuthorList/Author') do |author|
-          name = [author.elements['ForeName'].text, author.elements['LastName'].text].join("\s")
-          g << [publication, dc.creator, name]
+          if author.elements['ForeName'] && author.elements['ForeName']
+            name = [author.elements['ForeName'].text, author.elements['LastName'].text].join("\s") if author.elements['ForeName'] && author.elements['ForeName']
+            g << [publication, dc.creator, name]
+          end
         end
       end
     end
@@ -460,12 +462,13 @@ def xml2rdf(xml)
 end
 
 # for test
-#xml = get_xml("PXD003666")
+#xml = get_xml("PXD004741")
 #puts xml2rdf(xml).dump(:ttl)
 
 
 # main
 #=begin
+# resume
 f = File.open(file).read.split("\n")
 if skip = ARGV[1]
   f.shift(f.index(skip) + 1)
