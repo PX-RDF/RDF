@@ -148,7 +148,7 @@ def xml2rdf(xml)
   g << [subject, rdfs.label, e.attributes['title']]
   
   ### Description min=1 max=1
-  g << [subject, dc.description, e.elements['Description'].text.chomp]
+  g << [subject, dc.description, e.elements['Description'].text.chomp] if e.elements['Description'].text
   
   ### Review Level min=1 max=1
   cvs = cv(e.elements['ReviewLevel/cvParam'])
@@ -462,7 +462,7 @@ def xml2rdf(xml)
 end
 
 # for test
-#xml = get_xml("PXD002761")
+#xml = get_xml("PXD002464")
 #puts xml2rdf(xml).dump(:ttl)
 
 
