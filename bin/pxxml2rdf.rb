@@ -299,7 +299,7 @@ def xml2rdf(xml)
       elsif cvs[:accession] == "MS:1001922" # Digital Object Identifier (DOI)
         cvs[:value] = "http://dx.doi.org/" + cvs[:value] unless cvs[:value] =~ /^http/
         g << [publication, rdfs.seeAlso, RDF::URI(cvs[:value])]
-      elsif cvs[:accession] == "MS:1000879" # PubMed identifier
+      elsif cvs[:accession] == "MS:1000879" && cvs[:value].size > 1  # PubMed identifier
         g << [publication, RDF.type, bibo.Article]
         g << [publication, bibo.pmid, cvs[:value]]
         g << [publication, rdfs.seeAlso, RDF::URI("http://identifiers.org/pubmed/#{cvs[:value]}")]
@@ -462,7 +462,7 @@ def xml2rdf(xml)
 end
 
 # for test
-#xml = get_xml("PXD003810")
+#xml = get_xml("PXD002761")
 #puts xml2rdf(xml).dump(:ttl)
 
 
