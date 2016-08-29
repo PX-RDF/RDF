@@ -328,7 +328,7 @@ def xml2rdf(xml)
         # authors
         article.elements.each('AuthorList/Author') do |author|
           if author.elements['ForeName'] && author.elements['ForeName']
-            name = [author.elements['ForeName'].text, author.elements['LastName'].text].join("\s") if author.elements['ForeName'] && author.elements['ForeName']
+            name = [author.elements['ForeName'].text, author.elements['LastName'].text].join("\s")
             g << [publication, dc.creator, name]
           end
         end
