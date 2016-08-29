@@ -1,0 +1,293 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ms: <https://raw.githubusercontent.com/HUPO-PSI/psi-ms-CV/master/psi-ms.obo#MS:> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pride: <https://raw.githubusercontent.com/PRIDE-Utilities/pride-ontology/master/pride_cv.obo#PRIDE:> .
+@prefix prism: <http://prismstandard.org/namespaces/1.2/basic/> .
+@prefix px: <https://raw.githubusercontent.com/PX-RDF/ontology/master/px.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix unimod: <http://www.unimod.org/obo/unimod.obo#UNIMOD:> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://proteomecentral.proteomexchange.org/dataset/PXD003666> a px:ProteomeXchangeDatasetType;
+   rdfs:label "TFMI-3 plasma pull-down";
+   dct:title "TFMI-3 plasma pull-down";
+   dc:description "MASP-3 is the third protease of the lectin pathway of the complement system, but its biological function has remained obscure. To elucidate its role in complement activation, we developed a specific MASP-3 inhibitor (named TFMI-3). In this work we unambiguously demonstrate that MASP-3 acts as the exclusive pro-FD activator in resting blood.";
+   dc:subject "MASP-3, blood, complement, lectin pathway, alternative pathway, Factor D, inhibitor, directed protein evolution",
+     "Biological";
+   dct:contributor [
+     a ms:1002332,
+       foaf:Person;
+     dct:identifier "project_lab_head";
+     foaf:mbox <marius.ueffing@uni-tuebingen.de>;
+     foaf:name "Marius Ueffing";
+     ms:1000586 "Marius Ueffing";
+     ms:1000589 "marius.ueffing@uni-tuebingen.de";
+     ms:1000590 "Institute for Ophthalmic Research and Medical Proteome Center Centre for Ophthalmology Eberhard Karls University, Tuebingen, Germany"
+   ],  [
+     a foaf:Person,
+       ms:1002037;
+     dct:identifier "project_submitter";
+     foaf:mbox <eloed.koertvely@uni-tuebingen.de>;
+     foaf:name "Elod Kortvely";
+     ms:1000586 "Elod Kortvely";
+     ms:1000589 "eloed.koertvely@uni-tuebingen.de";
+     ms:1000590 "University of Tuebingen"
+   ];
+   dct:date "2016-08-24"^^xsd:date;
+   dct:identifier "PXD003666";
+   dct:references [
+     a px:PublicationType,
+       bibo:Article;
+     dct:title "MASP-3 is the exclusive pro-factor D activator in resting blood: the lectin and the alternative complement pathways are fundamentally linked.";
+     prism:publicationName "Scientific reports";
+     dc:creator "Gábor Oroszlán",
+       "Elod Kortvely",
+       "Péter Gál",
+       "Eszter Boros",
+       "Róbert Szász",
+       "Gábor Pál",
+       "József Dobó",
+       "Dávid Szakács",
+       "Péter Závodszky",
+       "Bence Kiss";
+     dc:date "2016";
+     dct:identifier "PMID27535802";
+     bibo:pmid "27535802";
+     rdfs:seeAlso <http://www.ncbi.nlm.nih.gov/pubmed/27535802>,
+       <http://identifiers.org/pubmed/27535802>,
+       <http://dx.doi.org/https://raw.githubusercontent.com/HUPO-PSI/psi-ms-CV/master/psi-ms.obo#1001922>
+   ];
+   rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666>,
+     <http://www.ebi.ac.uk/pride/archive/projects/PXD003666>,
+     <https://doi.org/10.6019/PXD003666>;
+   ms:1001919 "PXD003666";
+   ms:1001922 "10.6019/PXD003666";
+   px:datasetFile [
+     a px:DatasetFileType;
+     rdfs:label "ELK2044-S18-A-5.raw (F005225).mzid.gz";
+     dct:identifier "FILE_175";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S18-A-5.raw (F005225).mzid.gz>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "ELK2044-S06-A-2.raw";
+     dct:identifier "FILE_183";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S06-A-2.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "ELK2044-S10-A-3.raw (F005234).mzid_ELK2044-S10-A-3.raw_(F005234).MGF";
+     dct:identifier "FILE_170";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S10-A-3.raw (F005234).mzid_ELK2044-S10-A-3.raw_(F005234).MGF>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "ELK2044-S02-A-1.raw (F005223).mzid_ELK2044-S02-A-1.raw_(F005223).MGF";
+     dct:identifier "FILE_166";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S02-A-1.raw (F005223).mzid_ELK2044-S02-A-1.raw_(F005223).MGF>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "ELK2044-S02-A-1.raw";
+     dct:identifier "FILE_182";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S02-A-1.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "ELK2044-S10-A-3.raw (F005234).mzid.gz";
+     dct:identifier "FILE_171";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S10-A-3.raw (F005234).mzid.gz>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "ELK2044-S18-A-5.raw (F005225).mzid_ELK2044-S18-A-5.raw_(F005225).MGF";
+     dct:identifier "FILE_174";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S18-A-5.raw (F005225).mzid_ELK2044-S18-A-5.raw_(F005225).MGF>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "ELK2044-S10-A-3.raw";
+     dct:identifier "FILE_184";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S10-A-3.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "ELK2044-S22-A-6.raw (F005235).mzid_ELK2044-S22-A-6.raw_(F005235).MGF";
+     dct:identifier "FILE_176";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S22-A-6.raw (F005235).mzid_ELK2044-S22-A-6.raw_(F005235).MGF>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "ELK2044-S02-A-1.raw (F005223).mzid.gz";
+     dct:identifier "FILE_167";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S02-A-1.raw (F005223).mzid.gz>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "ELK2044-S06-A-2.raw (F005226).mzid_ELK2044-S06-A-2.raw_(F005226).MGF";
+     dct:identifier "FILE_168";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S06-A-2.raw (F005226).mzid_ELK2044-S06-A-2.raw_(F005226).MGF>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "ELK2044-S06-A-2.raw (F005226).mzid.gz";
+     dct:identifier "FILE_169";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S06-A-2.raw (F005226).mzid.gz>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "ELK2044-S14-A-4.raw";
+     dct:identifier "FILE_185";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S14-A-4.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "ELK2044-S14-A-4.raw (F005229).mzid.gz";
+     dct:identifier "FILE_173";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S14-A-4.raw (F005229).mzid.gz>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "ELK2044-S14-A-4.raw (F005229).mzid_ELK2044-S14-A-4.raw_(F005229).MGF";
+     dct:identifier "FILE_172";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S14-A-4.raw (F005229).mzid_ELK2044-S14-A-4.raw_(F005229).MGF>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "ELK2044-S22-A-6.raw (F005235).mzid.gz";
+     dct:identifier "FILE_177";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S22-A-6.raw (F005235).mzid.gz>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "ELK2044-S18-A-5.raw";
+     dct:identifier "FILE_186";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S18-A-5.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "ELK2044-S22-A-6.raw";
+     dct:identifier "FILE_187";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S22-A-6.raw>
+   ];
+   px:datasetOrigin pride:0000402;
+   px:hostingRepository <https://www.ebi.ac.uk/pride/archive/>;
+   px:instrument ms:1000449;
+   px:modification unimod:6,
+     unimod:35,
+     unimod:7;
+   px:repositoryRecord [
+     a px:RepositoryRecordType;
+     rdfs:label "PRIDE project";
+     dct:title "TFMI-3 plasma pull-down";
+     dct:identifier "PXD003666";
+     rdfs:seeAlso <http://www.ebi.ac.uk/pride/archive/projects/PXD003666>;
+     px:hostingRepository <https://www.ebi.ac.uk/pride/archive/>
+   ];
+   px:repositorySupport pride:0000416;
+   px:reviewLevel pride:0000414;
+   px:species [
+     a px:SpeciesType;
+     rdfs:label "Homo sapiens (Human)";
+     dct:identifier "9606";
+     rdfs:seeAlso <http://identifiers.org/taxonomy/9606>,
+       <http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9606>;
+     ms:1001467 "9606";
+     ms:1001469 "Homo sapiens (Human)"
+   ] .
+
+ms:1000586 a owl:DatatypeProperty;
+   rdfs:label "contact name" .
+
+ms:1000589 a owl:DatatypeProperty;
+   rdfs:label "contact email" .
+
+ms:1000590 a owl:DatatypeProperty;
+   rdfs:label "contact affiliation" .
+
+ms:1001467 a owl:DatatypeProperty;
+   rdfs:label "taxonomy: NCBI TaxID" .
+
+ms:1001469 a owl:DatatypeProperty;
+   rdfs:label "taxonomy: scientific name" .
+
+ms:1001919 a owl:DatatypeProperty;
+   rdfs:label "ProteomeXchange accession number" .
+
+ms:1001922 a owl:DatatypeProperty;
+   rdfs:label "Digital Object Identifier (DOI)" .
+
+<ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666> a pride:0000411 .
+
+<ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S02-A-1.raw> a pride:0000404 .
+
+<ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S02-A-1.raw (F005223).mzid.gz> a pride:0000407 .
+
+<ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S02-A-1.raw (F005223).mzid_ELK2044-S02-A-1.raw_(F005223).MGF> a pride:0000409 .
+
+<ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S06-A-2.raw> a pride:0000404 .
+
+<ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S06-A-2.raw (F005226).mzid.gz> a pride:0000407 .
+
+<ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S06-A-2.raw (F005226).mzid_ELK2044-S06-A-2.raw_(F005226).MGF> a pride:0000409 .
+
+<ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S10-A-3.raw> a pride:0000404 .
+
+<ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S10-A-3.raw (F005234).mzid.gz> a pride:0000407 .
+
+<ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S10-A-3.raw (F005234).mzid_ELK2044-S10-A-3.raw_(F005234).MGF> a pride:0000409 .
+
+<ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S14-A-4.raw> a pride:0000404 .
+
+<ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S14-A-4.raw (F005229).mzid.gz> a pride:0000407 .
+
+<ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S14-A-4.raw (F005229).mzid_ELK2044-S14-A-4.raw_(F005229).MGF> a pride:0000409 .
+
+<ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S18-A-5.raw> a pride:0000404 .
+
+<ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S18-A-5.raw (F005225).mzid.gz> a pride:0000407 .
+
+<ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S18-A-5.raw (F005225).mzid_ELK2044-S18-A-5.raw_(F005225).MGF> a pride:0000409 .
+
+<ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S22-A-6.raw> a pride:0000404 .
+
+<ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S22-A-6.raw (F005235).mzid.gz> a pride:0000407 .
+
+<ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD003666/ELK2044-S22-A-6.raw (F005235).mzid_ELK2044-S22-A-6.raw_(F005235).MGF> a pride:0000409 .
+
+unimod:35 a px:ModificationType;
+   rdfs:label "Oxidation" .
+
+unimod:6 a px:ModificationType;
+   rdfs:label "Carboxymethyl" .
+
+unimod:7 a px:ModificationType;
+   rdfs:label "Deamidated" .
+
+ms:1000449 a px:InstrumentType;
+   rdfs:label "LTQ Orbitrap";
+   dct:identifier "Instrument_1" .
+
+ms:1001930 a owl:Class;
+   rdfs:label "PRIDE project URI" .
+
+ms:1002037 a owl:Class;
+   rdfs:label "dataset submitter";
+   rdfs:subClassOf px:ContactType .
+
+ms:1002332 a owl:Class;
+   rdfs:label "lab head";
+   rdfs:subClassOf px:ContactType .
+
+pride:0000402 a px:DatasetOriginType;
+   rdfs:label "Original data" .
+
+pride:0000411 a owl:Class;
+   rdfs:label "Dataset FTP location" .
+
+pride:0000414 a px:ReviewLevelType;
+   rdfs:label "Peer-reviewed dataset" .
+
+pride:0000416 a px:RepositorySupportType;
+   rdfs:label "Supported dataset by repository" .
+
+<http://www.ebi.ac.uk/pride/archive/projects/PXD003666> a ms:1001930 .
+
+<https://www.ebi.ac.uk/pride/archive/> a px:HostingRepositoryType;
+   rdfs:label "PRIDE" .
+
+pride:0000404 a owl:Class;
+   rdfs:label "Associated raw file URI" .
+
+pride:0000407 a owl:Class;
+   rdfs:label "Result file URI" .
+
+pride:0000409 a owl:Class;
+   rdfs:label "Peak list file URI" .
