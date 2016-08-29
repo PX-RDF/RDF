@@ -311,7 +311,7 @@ def xml2rdf(xml)
         article = pubmed.elements['PubmedArticleSet/PubmedArticle/MedlineCitation/Article/']
         #doi     = article.elements['ELocationID'].text if article.elements['ELocationID'].attributes['EIdType'] == "doi"
         doi     = pubmed.elements['PubmedArticleSet/PubmedArticle/PubmedData/ArticleIdList/ArticleId'].text if pubmed.elements['PubmedArticleSet/PubmedArticle/PubmedData/ArticleIdList/ArticleId'].attributes['IdType'] == "doi"
-        year    = article.elements['Journal/JournalIssue/PubDate/Year'].text
+        year    = article.elements['Journal/JournalIssue/PubDate/Year'].text if article.elements['Journal/JournalIssue/PubDate/Year']
         month   = @month[article.elements['Journal/JournalIssue/PubDate/Month'].text] if article.elements['Journal/JournalIssue/PubDate/Month']
         
         if day = article.elements['Journal/JournalIssue/PubDate/Day']
@@ -322,8 +322,8 @@ def xml2rdf(xml)
         g << [publication, dct.title, article.elements['ArticleTitle'].text]
         g << [publication, prism.publicationName, article.elements['Journal/Title'].text]
         g << [publication, rdfs.seeAlso, RDF::URI("http://dx.doi.org/#{doi}")]
-        g << [publication, dc.date, year]
-        g << [publication, prism.publicationDate, RDF::Literal::Date.new("#{year}-#{month}-#{day}")] if month && day
+        g << [publication, dc.date, year] if year
+        g << [publication, prism.publicationDate, RDF::Literal::Date.new("#{year}-#{month}-#{day}")] if year && month && day
         
         # authors
         article.elements.each('AuthorList/Author') do |author|
@@ -462,7 +462,7 @@ def xml2rdf(xml)
 end
 
 # for test
-#xml = get_xml("PXD004741")
+#xml = get_xml("PXD003810")
 #puts xml2rdf(xml).dump(:ttl)
 
 
