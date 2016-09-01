@@ -14,12 +14,12 @@
    rdfs:label "Phosphoproteomic analyses of IL-2 signaling reveals integrated JAK-dependent and independent phosphorylation networks that drive cytotoxic T cell fate";
    dct:title "Phosphoproteomic analyses of IL-2 signaling reveals integrated JAK-dependent and independent phosphorylation networks that drive cytotoxic T cell fate";
    dc:description "High-resolution mass spectrometry analysis of Interleukin 2 (IL-2) and Janus kinase (JAK) controlled protein phosphorylations in cytotoxic T lymphocytes (CTL) revealed JAKs coupled IL-2 receptors to diverse and complex serine/threonine kinase-substrate networks. These involved intricate, co-ordinated phosphorylation of transcription factors, chromatin regulators within the nuclear environment, cytosolic mRNA translational machinery, regulators of GTPases, vesicle trafficking proteins and the actin and microtubule cytoskeleton. We also identified an IL-2-JAK independent SRC family Tyr kinase controlled signaling network that regulates ~10% of the CTL phosphoproteome. One key signaling pathway in CTL is mediated by phosphatidylinositol (3,4,5)-trisphosphate (PIP3) and the serine/threonine kinase AKT. Strikingly, SRC family kinase dependent but JAK independent signaling controlled PIP3 levels and AKT activity in CTL. IL-2-JAK controlled signaling pathways thus coordinate with IL-2 independent networks of protein phosphorylation to program CTL fate.";
-   dc:subject "Biological",
-     "Biomedical",
-     "IL-2, JAK1, JAK3,Lck/Fyn, SILAC, phosphoproteomics, lymphocytes.";
+   dc:subject "IL-2, JAK1, JAK3,Lck/Fyn, SILAC, phosphoproteomics, lymphocytes.",
+     "Biological",
+     "Biomedical";
    dct:contributor [
-     a foaf:Person,
-       ms:1002332;
+     a ms:1002332,
+       foaf:Person;
      dct:identifier "project_lab_head";
      foaf:mbox <d.a.cantrell@dundee.ac.uk>;
      foaf:name "Doreen Ann Cantrell";
@@ -27,8 +27,8 @@
      ms:1000589 "d.a.cantrell@dundee.ac.uk";
      ms:1000590 "Division of Cell Signalling and Immunology, School of Life Sciences, University of Dundee, Dundee, UK"
    ],  [
-     a foaf:Person,
-       ms:1002037;
+     a ms:1002037,
+       foaf:Person;
      dct:identifier "project_submitter";
      foaf:mbox <s.t.ross@dundee.ac.uk>;
      foaf:name "Sarah Ross";
@@ -39,28 +39,18 @@
    dct:date "2016-08-25"^^xsd:date;
    dct:identifier "PXD004645";
    dct:references [
-     a pride:0000432,
-       px:PublicationType;
+     a px:PublicationType,
+       pride:0000432;
      dct:identifier "pending"
    ];
-   rdfs:seeAlso <http://www.ebi.ac.uk/pride/archive/projects/PXD004645>,
-     <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645>;
+   rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645>,
+     <http://www.ebi.ac.uk/pride/archive/projects/PXD004645>;
    ms:1001919 "PXD004645";
    px:datasetFile [
      a px:DatasetFileType;
-     rdfs:label "30 min tof_Reverse-Frac-10.raw";
-     dct:identifier "FILE_49";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-10.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_BR2-23F.raw";
-     dct:identifier "FILE_25";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-23F.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_Reverse-Frac-14.raw";
-     dct:identifier "FILE_53";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-14.raw>
+     rdfs:label "30 min tof_BR1-16F.raw";
+     dct:identifier "FILE_2";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR1-16F.raw>
    ],  [
      a px:DatasetFileType;
      rdfs:label "30 min tof_BR1-14F.raw";
@@ -68,364 +58,9 @@
      rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR1-14F.raw>
    ],  [
      a px:DatasetFileType;
-     rdfs:label "30 min tof_Forward-frac-6.raw";
-     dct:identifier "FILE_44";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-6.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR2-1.raw";
-     dct:identifier "FILE_80";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-1.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_BR1-19F.raw";
-     dct:identifier "FILE_5";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR1-19F.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_BR2-16F.raw";
-     dct:identifier "FILE_18";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-16F.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_BR1-15F.raw";
-     dct:identifier "FILE_1";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR1-15F.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR2-3.raw";
-     dct:identifier "FILE_89";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-3.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_BR2-27F.raw";
-     dct:identifier "FILE_29";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-27F.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_BR2-24F.raw";
-     dct:identifier "FILE_26";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-24F.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "PP2_BR_2-5.raw";
-     dct:identifier "FILE_123";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/PP2_BR_2-5.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_BR2-14F.raw";
-     dct:identifier "FILE_16";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-14F.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_BR1-16F.raw";
-     dct:identifier "FILE_2";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR1-16F.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_BR2-21F.raw";
-     dct:identifier "FILE_23";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-21F.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_BR1-22F.raw";
-     dct:identifier "FILE_8";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR1-22F.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR2-10.raw";
-     dct:identifier "FILE_81";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-10.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_BR1-29-31F.raw";
-     dct:identifier "FILE_15";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR1-29-31F.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_BR1-23F.raw";
-     dct:identifier "FILE_9";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR1-23F.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_Forward-frac-11.raw";
-     dct:identifier "FILE_34";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-11.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-2-F_16.raw";
-     dct:identifier "FILE_151";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_16.raw>
-   ],  [
-     a px:DatasetFileType;
      rdfs:label "30 min tof_BR1-25F.raw";
      dct:identifier "FILE_11";
      rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR1-25F.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR3-14.raw";
-     dct:identifier "FILE_101";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-14.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_BR1-20F.raw";
-     dct:identifier "FILE_6";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR1-20F.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_BR1-26F.raw";
-     dct:identifier "FILE_12";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR1-26F.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_Forward-frac-15.raw";
-     dct:identifier "FILE_38";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-15.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_Forward-frac-4.raw";
-     dct:identifier "FILE_42";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-4.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_BR1-18F.raw";
-     dct:identifier "FILE_4";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR1-18F.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_BR2-19F.raw";
-     dct:identifier "FILE_21";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-19F.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_BR2-20F.raw";
-     dct:identifier "FILE_22";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-20F.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_BR1-17F.raw";
-     dct:identifier "FILE_3";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR1-17F.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR1-9.raw";
-     dct:identifier "FILE_79";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-9.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-1-F_11.raw";
-     dct:identifier "FILE_129";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1-F_11.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR2-9.raw";
-     dct:identifier "FILE_95";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-9.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-2-F_15.raw";
-     dct:identifier "FILE_150";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_15.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "m_61_PP2_BR1_13.raw";
-     dct:identifier "FILE_180";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR1_13.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-1_F4.raw";
-     dct:identifier "FILE_139";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1_F4.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "PP2_BR_2-13.raw";
-     dct:identifier "FILE_116";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/PP2_BR_2-13.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-1-F_13.raw";
-     dct:identifier "FILE_131";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1-F_13.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-1_F1.raw";
-     dct:identifier "FILE_136";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1_F1.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_Reverse-Frac-11.raw";
-     dct:identifier "FILE_50";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-11.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_BR2-26F.raw";
-     dct:identifier "FILE_28";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-26F.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-3-F_6.raw";
-     dct:identifier "FILE_172";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_6.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-3-F_12.raw";
-     dct:identifier "FILE_163";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_12.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "m_61_PP2_BR3_5.raw";
-     dct:identifier "FILE_203";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_5.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR1-11.raw";
-     dct:identifier "FILE_66";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-11.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-1_F7.raw";
-     dct:identifier "FILE_142";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1_F7.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "PP2_BR_2-16.raw";
-     dct:identifier "FILE_119";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/PP2_BR_2-16.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "m_61_PP2_BR3_2.raw";
-     dct:identifier "FILE_200";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_2.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "PP2_BR_2-4.raw";
-     dct:identifier "FILE_122";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/PP2_BR_2-4.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-3-F_13.raw";
-     dct:identifier "FILE_164";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_13.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_BR2-18F.raw";
-     dct:identifier "FILE_20";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-18F.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_BR1-28F.raw";
-     dct:identifier "FILE_14";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR1-28F.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-3-F_14.raw";
-     dct:identifier "FILE_165";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_14.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-1-F_16.raw";
-     dct:identifier "FILE_134";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1-F_16.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR3-12.raw";
-     dct:identifier "FILE_99";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-12.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "m_61_PP2_BR1_11.raw";
-     dct:identifier "FILE_178";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR1_11.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "m_61_PP2_BR3_4.raw";
-     dct:identifier "FILE_202";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_4.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-1_F3.raw";
-     dct:identifier "FILE_138";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1_F3.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "m_61_PP2_BR1_15.raw";
-     dct:identifier "FILE_182";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR1_15.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR3-16.raw";
-     dct:identifier "FILE_103";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-16.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-2-F_3.raw";
-     dct:identifier "FILE_153";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_3.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR3-6.raw";
-     dct:identifier "FILE_108";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-6.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_BR1-24F.raw";
-     dct:identifier "FILE_10";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR1-24F.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR2-15.raw";
-     dct:identifier "FILE_86";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-15.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "m_61_PP2_BR3_7.raw";
-     dct:identifier "FILE_205";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_7.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_Forward-frac-14.raw";
-     dct:identifier "FILE_37";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-14.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-2-F_13.raw";
-     dct:identifier "FILE_148";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_13.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "m_61_PP2_BR1_14.raw";
-     dct:identifier "FILE_181";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR1_14.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-1-F_14.raw";
-     dct:identifier "FILE_132";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1-F_14.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR2-6.raw";
-     dct:identifier "FILE_92";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-6.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-3-F_8.raw";
-     dct:identifier "FILE_174";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_8.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR3-10.raw";
-     dct:identifier "FILE_97";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-10.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_Reverse-Frac-15.raw";
-     dct:identifier "FILE_54";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-15.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR1-16.raw";
-     dct:identifier "FILE_71";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-16.raw>
    ],  [
      a px:DatasetFileType;
      rdfs:label "30 min tof_BR2-29-30F.raw";
@@ -433,209 +68,19 @@
      rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-29-30F.raw>
    ],  [
      a px:DatasetFileType;
-     rdfs:label "4hr tof_BR2-14.raw";
-     dct:identifier "FILE_85";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-14.raw>
+     rdfs:label "30 min tof_BR2-26F.raw";
+     dct:identifier "FILE_28";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-26F.raw>
    ],  [
      a px:DatasetFileType;
-     rdfs:label "SR-3-F_9.raw";
-     dct:identifier "FILE_175";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_9.raw>
+     rdfs:label "4hr tof_BR1-10.raw";
+     dct:identifier "FILE_65";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-10.raw>
    ],  [
      a px:DatasetFileType;
-     rdfs:label "30 min tof_Reverse-Frac-8.raw";
-     dct:identifier "FILE_62";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-8.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR1-1.raw";
-     dct:identifier "FILE_64";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-1.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-2-F_8.raw";
-     dct:identifier "FILE_158";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_8.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-1_F8.raw";
-     dct:identifier "FILE_143";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1_F8.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR2-4.raw";
-     dct:identifier "FILE_90";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-4.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-2-F_14.raw";
-     dct:identifier "FILE_149";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_14.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-1-F_15.raw";
-     dct:identifier "FILE_133";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1-F_15.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "PP2_BR_2-9.raw";
-     dct:identifier "FILE_127";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/PP2_BR_2-9.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "PP2_BR_2-15.raw";
-     dct:identifier "FILE_118";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/PP2_BR_2-15.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "m_61_PP2_BR1_5.raw";
-     dct:identifier "FILE_187";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR1_5.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "PP2_BR_2-14.raw";
-     dct:identifier "FILE_117";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/PP2_BR_2-14.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-2-F_9.raw";
-     dct:identifier "FILE_159";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_9.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-2-F_2.raw";
-     dct:identifier "FILE_152";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_2.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_Reverse-Frac-5.raw";
-     dct:identifier "FILE_59";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-5.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR2-13.raw";
-     dct:identifier "FILE_84";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-13.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR2-8.raw";
-     dct:identifier "FILE_94";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-8.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_Forward-frac-1.raw";
-     dct:identifier "FILE_32";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-1.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_BR2-28F.raw";
-     dct:identifier "FILE_30";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-28F.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_Reverse-Frac-3.raw";
-     dct:identifier "FILE_57";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-3.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_Forward-frac-16.raw";
-     dct:identifier "FILE_39";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-16.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-3-F_5.raw";
-     dct:identifier "FILE_171";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_5.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "m_61_PP2_BR3_6.raw";
-     dct:identifier "FILE_204";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_6.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "txt1.zip";
-     dct:identifier "FILE_210";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/txt1.zip>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-2-F_12.raw";
-     dct:identifier "FILE_147";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_12.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_Forward-frac-13.raw";
-     dct:identifier "FILE_36";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-13.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_Reverse-Frac-7.raw";
-     dct:identifier "FILE_61";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-7.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-2-F_6.raw";
-     dct:identifier "FILE_156";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_6.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR1-13.raw";
-     dct:identifier "FILE_68";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-13.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "PP2_BR_2-1.raw";
-     dct:identifier "FILE_112";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/PP2_BR_2-1.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_BR2-25F.raw";
-     dct:identifier "FILE_27";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-25F.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-2-F_1-2.raw";
-     dct:identifier "FILE_144";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_1-2.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "m_61_PP2_BR1_9.raw";
-     dct:identifier "FILE_191";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR1_9.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-2-F_10.raw";
-     dct:identifier "FILE_145";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_10.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "m_61_PP2_BR3_12.raw";
-     dct:identifier "FILE_195";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_12.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR2-5.raw";
-     dct:identifier "FILE_91";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-5.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR1-3.raw";
-     dct:identifier "FILE_73";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-3.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR1-4.raw";
-     dct:identifier "FILE_74";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-4.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR2-16.raw";
-     dct:identifier "FILE_87";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-16.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "PP2_BR_2-8.raw";
-     dct:identifier "FILE_126";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/PP2_BR_2-8.raw>
+     rdfs:label "30 min tof_Forward-frac-6.raw";
+     dct:identifier "FILE_44";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-6.raw>
    ],  [
      a px:DatasetFileType;
      rdfs:label "30 min tof_BR1-21F.raw";
@@ -643,34 +88,9 @@
      rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR1-21F.raw>
    ],  [
      a px:DatasetFileType;
-     rdfs:label "4hr tof_BR3-13.raw";
-     dct:identifier "FILE_100";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-13.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_Reverse-Frac-13.raw";
-     dct:identifier "FILE_52";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-13.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR1-14.raw";
-     dct:identifier "FILE_69";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-14.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-1_F6.raw";
-     dct:identifier "FILE_141";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1_F6.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "m_61_PP2_BR3_8.raw";
-     dct:identifier "FILE_206";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_8.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-1-F_10.raw";
-     dct:identifier "FILE_128";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1-F_10.raw>
+     rdfs:label "30 min tof_BR2-21F.raw";
+     dct:identifier "FILE_23";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-21F.raw>
    ],  [
      a px:DatasetFileType;
      rdfs:label "30 min tof_Forward-frac-7.raw";
@@ -678,84 +98,19 @@
      rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-7.raw>
    ],  [
      a px:DatasetFileType;
-     rdfs:label "m_61_PP2_BR3_13.raw";
-     dct:identifier "FILE_196";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_13.raw>
+     rdfs:label "30 min tof_BR1-19F.raw";
+     dct:identifier "FILE_5";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR1-19F.raw>
    ],  [
      a px:DatasetFileType;
-     rdfs:label "SR-2-F_7.raw";
-     dct:identifier "FILE_157";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_7.raw>
+     rdfs:label "30 min tof_Forward-frac-5.raw";
+     dct:identifier "FILE_43";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-5.raw>
    ],  [
      a px:DatasetFileType;
-     rdfs:label "30 min tof_Forward-frac-10.raw";
-     dct:identifier "FILE_33";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-10.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-3-F_10.raw";
-     dct:identifier "FILE_161";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_10.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "PP2_BR_2-12.raw";
-     dct:identifier "FILE_115";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/PP2_BR_2-12.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-1-F_9.raw";
-     dct:identifier "FILE_135";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1-F_9.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "m_61_PP2_BR3_14.raw";
-     dct:identifier "FILE_197";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_14.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "PP2_BR_2-10.raw";
-     dct:identifier "FILE_113";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/PP2_BR_2-10.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR2-7.raw";
-     dct:identifier "FILE_93";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-7.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "m_61_PP2_BR1_10.raw";
-     dct:identifier "FILE_177";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR1_10.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR1-15.raw";
-     dct:identifier "FILE_70";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-15.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_BR2-17F.raw";
-     dct:identifier "FILE_19";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-17F.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR3-7.raw";
-     dct:identifier "FILE_109";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-7.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_Reverse-Frac-12.raw";
-     dct:identifier "FILE_51";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-12.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "m_61_PP2_BR3_10.raw";
-     dct:identifier "FILE_193";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_10.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-2-F_4.raw";
-     dct:identifier "FILE_154";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_4.raw>
+     rdfs:label "30 min tof_BR1-23F.raw";
+     dct:identifier "FILE_9";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR1-23F.raw>
    ],  [
      a px:DatasetFileType;
      rdfs:label "4hr tof_BR2-12.raw";
@@ -763,34 +118,129 @@
      rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-12.raw>
    ],  [
      a px:DatasetFileType;
-     rdfs:label "SR-2-F_5.raw";
-     dct:identifier "FILE_155";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_5.raw>
+     rdfs:label "30 min tof_BR1-20F.raw";
+     dct:identifier "FILE_6";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR1-20F.raw>
    ],  [
      a px:DatasetFileType;
-     rdfs:label "30 min tof_Forward-frac-3.raw";
-     dct:identifier "FILE_41";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-3.raw>
+     rdfs:label "30 min tof_BR1-18F.raw";
+     dct:identifier "FILE_4";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR1-18F.raw>
    ],  [
      a px:DatasetFileType;
-     rdfs:label "txt.zip";
-     dct:identifier "FILE_208";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/txt.zip>
+     rdfs:label "4hr tof_BR1-11.raw";
+     dct:identifier "FILE_66";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-11.raw>
    ],  [
      a px:DatasetFileType;
-     rdfs:label "PP2_BR_2-3.raw";
-     dct:identifier "FILE_121";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/PP2_BR_2-3.raw>
+     rdfs:label "30 min tof_BR2-24F.raw";
+     dct:identifier "FILE_26";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-24F.raw>
    ],  [
      a px:DatasetFileType;
-     rdfs:label "30 min tof_BR1-27F.raw";
-     dct:identifier "FILE_13";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR1-27F.raw>
+     rdfs:label "30 min tof_BR1-17F.raw";
+     dct:identifier "FILE_3";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR1-17F.raw>
    ],  [
      a px:DatasetFileType;
-     rdfs:label "m_61_PP2_BR3_1.raw";
-     dct:identifier "FILE_192";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_1.raw>
+     rdfs:label "30 min tof_Forward-frac-16.raw";
+     dct:identifier "FILE_39";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-16.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_BR2-25F.raw";
+     dct:identifier "FILE_27";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-25F.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_Forward-frac-8.raw";
+     dct:identifier "FILE_46";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-8.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_BR2-15F.raw";
+     dct:identifier "FILE_17";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-15F.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_BR1-26F.raw";
+     dct:identifier "FILE_12";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR1-26F.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_Forward-frac-10.raw";
+     dct:identifier "FILE_33";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-10.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_Reverse-Frac-5.raw";
+     dct:identifier "FILE_59";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-5.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_BR2-19F.raw";
+     dct:identifier "FILE_21";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-19F.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_Forward-frac-4.raw";
+     dct:identifier "FILE_42";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-4.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_BR2-22F.raw";
+     dct:identifier "FILE_24";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-22F.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_BR1-29-31F.raw";
+     dct:identifier "FILE_15";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR1-29-31F.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_BR1-24F.raw";
+     dct:identifier "FILE_10";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR1-24F.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "PP2_BR_2-12.raw";
+     dct:identifier "FILE_115";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/PP2_BR_2-12.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "m_61_PP2_BR1_7.raw";
+     dct:identifier "FILE_189";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR1_7.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR2-2.raw";
+     dct:identifier "FILE_88";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-2.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_Forward-frac-9.raw";
+     dct:identifier "FILE_47";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-9.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-2-F_10.raw";
+     dct:identifier "FILE_145";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_10.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR3-1.raw";
+     dct:identifier "FILE_96";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-1.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR2-6.raw";
+     dct:identifier "FILE_92";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-6.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_BR1-22F.raw";
+     dct:identifier "FILE_8";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR1-22F.raw>
    ],  [
      a px:DatasetFileType;
      rdfs:label "SR-3-F_3.raw";
@@ -798,9 +248,794 @@
      rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_3.raw>
    ],  [
      a px:DatasetFileType;
-     rdfs:label "30 min tof_Forward-frac-9.raw";
-     dct:identifier "FILE_47";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-9.raw>
+     rdfs:label "30 min tof_Forward-frac-11.raw";
+     dct:identifier "FILE_34";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-11.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_BR2-17F.raw";
+     dct:identifier "FILE_19";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-17F.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR3-6.raw";
+     dct:identifier "FILE_108";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-6.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "PP2_BR_2-3.raw";
+     dct:identifier "FILE_121";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/PP2_BR_2-3.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "m_61_PP2_BR3_11.raw";
+     dct:identifier "FILE_194";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_11.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_BR2-20F.raw";
+     dct:identifier "FILE_22";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-20F.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "m_61_PP2_BR3_14.raw";
+     dct:identifier "FILE_197";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_14.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-1-F_10.raw";
+     dct:identifier "FILE_128";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1-F_10.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR2-16.raw";
+     dct:identifier "FILE_87";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-16.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR1-4.raw";
+     dct:identifier "FILE_74";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-4.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_BR1-15F.raw";
+     dct:identifier "FILE_1";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR1-15F.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-3-F_12.raw";
+     dct:identifier "FILE_163";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_12.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_Reverse-Frac-15.raw";
+     dct:identifier "FILE_54";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-15.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "m_61_PP2_BR3_6.raw";
+     dct:identifier "FILE_204";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_6.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR2-5.raw";
+     dct:identifier "FILE_91";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-5.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR3-8.raw";
+     dct:identifier "FILE_110";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-8.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR3-14.raw";
+     dct:identifier "FILE_101";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-14.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_BR2-18F.raw";
+     dct:identifier "FILE_20";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-18F.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_Reverse-Frac-10.raw";
+     dct:identifier "FILE_49";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-10.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_BR1-28F.raw";
+     dct:identifier "FILE_14";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR1-28F.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR3-12.raw";
+     dct:identifier "FILE_99";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-12.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-3-F_7.raw";
+     dct:identifier "FILE_173";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_7.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR2-7.raw";
+     dct:identifier "FILE_93";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-7.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "m_61_PP2_BR1_9.raw";
+     dct:identifier "FILE_191";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR1_9.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_Forward-frac-2.raw";
+     dct:identifier "FILE_40";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-2.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-2-F_5.raw";
+     dct:identifier "FILE_155";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_5.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "m_61_PP2_BR3_1.raw";
+     dct:identifier "FILE_192";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_1.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "m_61_PP2_BR3_4.raw";
+     dct:identifier "FILE_202";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_4.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-1_F4.raw";
+     dct:identifier "FILE_139";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1_F4.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-3-F_11.raw";
+     dct:identifier "FILE_162";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_11.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-1-F_14.raw";
+     dct:identifier "FILE_132";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1-F_14.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR2-14.raw";
+     dct:identifier "FILE_85";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-14.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR2-9.raw";
+     dct:identifier "FILE_95";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-9.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_Reverse-Frac-8.raw";
+     dct:identifier "FILE_62";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-8.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR1-6.raw";
+     dct:identifier "FILE_76";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-6.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-1_F2.raw";
+     dct:identifier "FILE_137";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1_F2.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR3-11.raw";
+     dct:identifier "FILE_98";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-11.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_Forward-frac-14.raw";
+     dct:identifier "FILE_37";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-14.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-1_F6.raw";
+     dct:identifier "FILE_141";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1_F6.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-1-F_9.raw";
+     dct:identifier "FILE_135";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1-F_9.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-3-F_9.raw";
+     dct:identifier "FILE_175";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_9.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR1-15.raw";
+     dct:identifier "FILE_70";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-15.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "m_61_PP2_BR1_11.raw";
+     dct:identifier "FILE_178";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR1_11.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR3-16.raw";
+     dct:identifier "FILE_103";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-16.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR3-9.raw";
+     dct:identifier "FILE_111";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-9.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "m_61_PP2_BR1_10.raw";
+     dct:identifier "FILE_177";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR1_10.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_Reverse-Frac-14.raw";
+     dct:identifier "FILE_53";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-14.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "m_61_PP2_BR3_2.raw";
+     dct:identifier "FILE_200";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_2.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_Forward-frac-12.raw";
+     dct:identifier "FILE_35";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-12.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_Forward-frac-1.raw";
+     dct:identifier "FILE_32";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-1.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-1_F8.raw";
+     dct:identifier "FILE_143";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1_F8.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-3-F_13.raw";
+     dct:identifier "FILE_164";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_13.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "PP2_BR_2-8.raw";
+     dct:identifier "FILE_126";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/PP2_BR_2-8.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-2-F_11.raw";
+     dct:identifier "FILE_146";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_11.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_Reverse-Frac-11.raw";
+     dct:identifier "FILE_50";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-11.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "PP2_BR_2-16.raw";
+     dct:identifier "FILE_119";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/PP2_BR_2-16.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-3-F_5.raw";
+     dct:identifier "FILE_171";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_5.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "m_61_PP2_BR1_4.raw";
+     dct:identifier "FILE_186";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR1_4.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_BR2-14F.raw";
+     dct:identifier "FILE_16";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-14F.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "m_61_PP2_BR3_7.raw";
+     dct:identifier "FILE_205";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_7.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR3-2.raw";
+     dct:identifier "FILE_104";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-2.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-3-F_6.raw";
+     dct:identifier "FILE_172";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_6.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "txt1.zip";
+     dct:identifier "FILE_210";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/txt1.zip>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "m_61_PP2_BR3_9.raw";
+     dct:identifier "FILE_207";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_9.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "m_61_PP2_BR1_14.raw";
+     dct:identifier "FILE_181";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR1_14.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-2-F_16.raw";
+     dct:identifier "FILE_151";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_16.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-1-F_11.raw";
+     dct:identifier "FILE_129";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1-F_11.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_Reverse-Frac-6.raw";
+     dct:identifier "FILE_60";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-6.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "m_61_PP2_BR3_3.raw";
+     dct:identifier "FILE_201";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_3.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "PP2_BR_2-1.raw";
+     dct:identifier "FILE_112";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/PP2_BR_2-1.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR1-7.raw";
+     dct:identifier "FILE_77";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-7.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_BR1-27F.raw";
+     dct:identifier "FILE_13";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR1-27F.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-1-F_16.raw";
+     dct:identifier "FILE_134";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1-F_16.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "m_61_PP2_BR1_5.raw";
+     dct:identifier "FILE_187";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR1_5.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-2-F_13.raw";
+     dct:identifier "FILE_148";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_13.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "m_61_PP2_BR1_15.raw";
+     dct:identifier "FILE_182";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR1_15.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR2-4.raw";
+     dct:identifier "FILE_90";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-4.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-3-F_1.raw";
+     dct:identifier "FILE_160";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_1.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "PP2_BR_2-5.raw";
+     dct:identifier "FILE_123";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/PP2_BR_2-5.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-1-F_12.raw";
+     dct:identifier "FILE_130";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1-F_12.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR1-1.raw";
+     dct:identifier "FILE_64";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-1.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_BR2-28F.raw";
+     dct:identifier "FILE_30";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-28F.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_Reverse-Frac-7.raw";
+     dct:identifier "FILE_61";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-7.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "PP2_BR_2-15.raw";
+     dct:identifier "FILE_118";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/PP2_BR_2-15.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR2-13.raw";
+     dct:identifier "FILE_84";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-13.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "m_61_PP2_BR1_8.raw";
+     dct:identifier "FILE_190";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR1_8.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-1-F_15.raw";
+     dct:identifier "FILE_133";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1-F_15.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR3-3.raw";
+     dct:identifier "FILE_105";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-3.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "PP2_BR_2-14.raw";
+     dct:identifier "FILE_117";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/PP2_BR_2-14.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "PP2_BR_2-11.raw";
+     dct:identifier "FILE_114";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/PP2_BR_2-11.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "PP2_BR_2-10.raw";
+     dct:identifier "FILE_113";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/PP2_BR_2-10.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-1_F3.raw";
+     dct:identifier "FILE_138";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1_F3.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-3-F_4.raw";
+     dct:identifier "FILE_170";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_4.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-2-F_7.raw";
+     dct:identifier "FILE_157";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_7.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_Forward-frac-3.raw";
+     dct:identifier "FILE_41";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-3.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-3-F_10.raw";
+     dct:identifier "FILE_161";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_10.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "m_61_PP2_BR1_13.raw";
+     dct:identifier "FILE_180";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR1_13.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR3-13.raw";
+     dct:identifier "FILE_100";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-13.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "PP2_BR_2-6.raw";
+     dct:identifier "FILE_124";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/PP2_BR_2-6.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-2-F_15.raw";
+     dct:identifier "FILE_150";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_15.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR2-3.raw";
+     dct:identifier "FILE_89";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-3.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-1_F5.raw";
+     dct:identifier "FILE_140";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1_F5.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "PP2_BR_2-4.raw";
+     dct:identifier "FILE_122";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/PP2_BR_2-4.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-2-F_1-2.raw";
+     dct:identifier "FILE_144";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_1-2.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR1-9.raw";
+     dct:identifier "FILE_79";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-9.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "m_61_PP2_BR1_3.raw";
+     dct:identifier "FILE_185";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR1_3.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-3-F_2.raw";
+     dct:identifier "FILE_168";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_2.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "m_61_PP2_BR3_10.raw";
+     dct:identifier "FILE_193";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_10.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-2-F_2.raw";
+     dct:identifier "FILE_152";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_2.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-2-F_4.raw";
+     dct:identifier "FILE_154";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_4.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "PP2_BR_2-7.raw";
+     dct:identifier "FILE_125";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/PP2_BR_2-7.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "m_61_PP2_BR1_12.raw";
+     dct:identifier "FILE_179";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR1_12.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_Reverse-Frac-16.raw";
+     dct:identifier "FILE_55";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-16.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "m_61_PP2_BR3_5.raw";
+     dct:identifier "FILE_203";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_5.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-1-F_13.raw";
+     dct:identifier "FILE_131";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1-F_13.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-3-F_15.raw";
+     dct:identifier "FILE_166";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_15.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_Reverse-Frac-12.raw";
+     dct:identifier "FILE_51";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-12.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR1-13.raw";
+     dct:identifier "FILE_68";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-13.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_Reverse-Frac-13.raw";
+     dct:identifier "FILE_52";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-13.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-2-F_6.raw";
+     dct:identifier "FILE_156";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_6.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-3-F_16.raw";
+     dct:identifier "FILE_167";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_16.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "PP2_BR_2-9.raw";
+     dct:identifier "FILE_127";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/PP2_BR_2-9.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR1-8.raw";
+     dct:identifier "FILE_78";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-8.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR2-11.raw";
+     dct:identifier "FILE_82";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-11.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-2-F_14.raw";
+     dct:identifier "FILE_149";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_14.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR2-10.raw";
+     dct:identifier "FILE_81";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-10.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-3-F_14.raw";
+     dct:identifier "FILE_165";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_14.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_Reverse-Frac-1.raw";
+     dct:identifier "FILE_48";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-1.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "m_61_PP2_BR3_8.raw";
+     dct:identifier "FILE_206";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_8.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-1_F1.raw";
+     dct:identifier "FILE_136";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1_F1.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR3-15.raw";
+     dct:identifier "FILE_102";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-15.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_Reverse-Frac-4.raw";
+     dct:identifier "FILE_58";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-4.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR2-1.raw";
+     dct:identifier "FILE_80";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-1.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_BR2-16F.raw";
+     dct:identifier "FILE_18";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-16F.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_Forward-frac-13.raw";
+     dct:identifier "FILE_36";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-13.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR3-10.raw";
+     dct:identifier "FILE_97";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-10.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_Reverse-Frac-3.raw";
+     dct:identifier "FILE_57";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-3.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-3-F_8.raw";
+     dct:identifier "FILE_174";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_8.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "m_61_PP2_BR3_12.raw";
+     dct:identifier "FILE_195";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_12.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR1-14.raw";
+     dct:identifier "FILE_69";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-14.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR1-12.raw";
+     dct:identifier "FILE_67";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-12.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR3-7.raw";
+     dct:identifier "FILE_109";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-7.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-2-F_9.raw";
+     dct:identifier "FILE_159";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_9.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR2-15.raw";
+     dct:identifier "FILE_86";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-15.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR3-5.raw";
+     dct:identifier "FILE_107";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-5.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR1-2.raw";
+     dct:identifier "FILE_72";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-2.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_BR2-27F.raw";
+     dct:identifier "FILE_29";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-27F.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "m_61_PP2_BR3_16.raw";
+     dct:identifier "FILE_199";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_16.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-1_F7.raw";
+     dct:identifier "FILE_142";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1_F7.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_BR2-23F.raw";
+     dct:identifier "FILE_25";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-23F.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "SR-2-F_12.raw";
+     dct:identifier "FILE_147";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_12.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR2-8.raw";
+     dct:identifier "FILE_94";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-8.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR3-4.raw";
+     dct:identifier "FILE_106";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-4.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "m_61_PP2_BR3_13.raw";
+     dct:identifier "FILE_196";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_13.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "m_61_PP2_BR1_6.raw";
+     dct:identifier "FILE_188";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR1_6.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_Reverse-Frac-2.raw";
+     dct:identifier "FILE_56";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-2.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "30 min tof_Reverse-Frac-9.raw";
+     dct:identifier "FILE_63";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-9.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "4hr tof_BR1-16.raw";
+     dct:identifier "FILE_71";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-16.raw>
    ],  [
      a px:DatasetFileType;
      rdfs:label "PP2_BR_2-2.raw";
@@ -813,29 +1048,19 @@
      rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR1_16.raw>
    ],  [
      a px:DatasetFileType;
-     rdfs:label "m_61_PP2_BR1_7.raw";
-     dct:identifier "FILE_189";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR1_7.raw>
+     rdfs:label "4hr tof_BR1-3.raw";
+     dct:identifier "FILE_73";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-3.raw>
    ],  [
      a px:DatasetFileType;
-     rdfs:label "4hr tof_BR1-7.raw";
-     dct:identifier "FILE_77";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-7.raw>
+     rdfs:label "30 min tof_Forward-frac-15.raw";
+     dct:identifier "FILE_38";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-15.raw>
    ],  [
      a px:DatasetFileType;
-     rdfs:label "4hr tof_BR1-12.raw";
-     dct:identifier "FILE_67";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-12.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_Reverse-Frac-6.raw";
-     dct:identifier "FILE_60";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-6.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "m_61_PP2_BR3_15.raw";
-     dct:identifier "FILE_198";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_15.raw>
+     rdfs:label "PP2_BR_2-13.raw";
+     dct:identifier "FILE_116";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/PP2_BR_2-13.raw>
    ],  [
      a px:DatasetFileType;
      rdfs:label "m_61_PP2_BR1_1.raw";
@@ -843,69 +1068,9 @@
      rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR1_1.raw>
    ],  [
      a px:DatasetFileType;
-     rdfs:label "SR-3-F_11.raw";
-     dct:identifier "FILE_162";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_11.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR3-4.raw";
-     dct:identifier "FILE_106";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-4.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-3-F_16.raw";
-     dct:identifier "FILE_167";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_16.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "m_61_PP2_BR3_11.raw";
-     dct:identifier "FILE_194";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_11.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-3-F_7.raw";
-     dct:identifier "FILE_173";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_7.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR1-8.raw";
-     dct:identifier "FILE_78";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-8.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_BR2-15F.raw";
-     dct:identifier "FILE_17";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-15F.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "m_61_PP2_BR3_9.raw";
-     dct:identifier "FILE_207";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_9.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-2-F_11.raw";
-     dct:identifier "FILE_146";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_11.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-1-F_12.raw";
-     dct:identifier "FILE_130";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1-F_12.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR3-3.raw";
-     dct:identifier "FILE_105";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-3.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR3-11.raw";
-     dct:identifier "FILE_98";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-11.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-3-F_4.raw";
-     dct:identifier "FILE_170";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_4.raw>
+     rdfs:label "4hr tof_BR1-5.raw";
+     dct:identifier "FILE_75";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-5.raw>
    ],  [
      a px:DatasetFileType;
      rdfs:label "m_61_PP2_BR1_2.raw";
@@ -913,198 +1078,33 @@
      rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR1_2.raw>
    ],  [
      a px:DatasetFileType;
-     rdfs:label "30 min tof_Forward-frac-2.raw";
-     dct:identifier "FILE_40";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-2.raw>
+     rdfs:label "m_61_PP2_BR3_15.raw";
+     dct:identifier "FILE_198";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_15.raw>
    ],  [
      a px:DatasetFileType;
-     rdfs:label "SR-1_F5.raw";
-     dct:identifier "FILE_140";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1_F5.raw>
+     rdfs:label "SR-2-F_8.raw";
+     dct:identifier "FILE_158";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_8.raw>
    ],  [
      a px:DatasetFileType;
-     rdfs:label "4hr tof_BR1-5.raw";
-     dct:identifier "FILE_75";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-5.raw>
+     rdfs:label "txt.zip";
+     dct:identifier "FILE_208";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/txt.zip>
    ],  [
      a px:DatasetFileType;
-     rdfs:label "PP2_BR_2-11.raw";
-     dct:identifier "FILE_114";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/PP2_BR_2-11.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "m_61_PP2_BR1_12.raw";
-     dct:identifier "FILE_179";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR1_12.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-3-F_1.raw";
-     dct:identifier "FILE_160";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_1.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR1-10.raw";
-     dct:identifier "FILE_65";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-10.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "m_61_PP2_BR3_3.raw";
-     dct:identifier "FILE_201";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_3.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "m_61_PP2_BR1_8.raw";
-     dct:identifier "FILE_190";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR1_8.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_Forward-frac-5.raw";
-     dct:identifier "FILE_43";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-5.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_Forward-frac-12.raw";
-     dct:identifier "FILE_35";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-12.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_Reverse-Frac-2.raw";
-     dct:identifier "FILE_56";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-2.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_Reverse-Frac-16.raw";
-     dct:identifier "FILE_55";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-16.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR2-2.raw";
-     dct:identifier "FILE_88";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-2.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "PP2_BR_2-6.raw";
-     dct:identifier "FILE_124";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/PP2_BR_2-6.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "m_61_PP2_BR3_16.raw";
-     dct:identifier "FILE_199";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR3_16.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_Reverse-Frac-4.raw";
-     dct:identifier "FILE_58";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-4.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR3-8.raw";
-     dct:identifier "FILE_110";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-8.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR2-11.raw";
-     dct:identifier "FILE_82";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR2-11.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR3-5.raw";
-     dct:identifier "FILE_107";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-5.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-3-F_15.raw";
-     dct:identifier "FILE_166";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_15.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "m_61_PP2_BR1_4.raw";
-     dct:identifier "FILE_186";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR1_4.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR3-2.raw";
-     dct:identifier "FILE_104";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-2.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR3-1.raw";
-     dct:identifier "FILE_96";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-1.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_Forward-frac-8.raw";
-     dct:identifier "FILE_46";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Forward-frac-8.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-3-F_2.raw";
-     dct:identifier "FILE_168";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-3-F_2.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_Reverse-Frac-1.raw";
-     dct:identifier "FILE_48";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-1.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR3-9.raw";
-     dct:identifier "FILE_111";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-9.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "m_61_PP2_BR1_3.raw";
-     dct:identifier "FILE_185";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR1_3.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "m_61_PP2_BR1_6.raw";
-     dct:identifier "FILE_188";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/m_61_PP2_BR1_6.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_Reverse-Frac-9.raw";
-     dct:identifier "FILE_63";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_Reverse-Frac-9.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR1-6.raw";
-     dct:identifier "FILE_76";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-6.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "30 min tof_BR2-22F.raw";
-     dct:identifier "FILE_24";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/30 min tof_BR2-22F.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "PP2_BR_2-7.raw";
-     dct:identifier "FILE_125";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/PP2_BR_2-7.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR3-15.raw";
-     dct:identifier "FILE_102";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR3-15.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "SR-1_F2.raw";
-     dct:identifier "FILE_137";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-1_F2.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "4hr tof_BR1-2.raw";
-     dct:identifier "FILE_72";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/4hr tof_BR1-2.raw>
+     rdfs:label "SR-2-F_3.raw";
+     dct:identifier "FILE_153";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004645/SR-2-F_3.raw>
    ];
    px:datasetOrigin pride:0000402;
    px:hostingRepository <https://www.ebi.ac.uk/pride/archive/>;
    px:instrument ms:1001742;
-   px:modification mod:00397,
-     mod:00394,
-     mod:00425,
+   px:modification mod:00425,
      mod:00696,
-     mod:00400;
+     mod:00394,
+     mod:00400,
+     mod:00397;
    px:repositoryRecord [
      a px:RepositoryRecordType;
      rdfs:label "PRIDE project";

@@ -20,8 +20,8 @@
    dc:subject "Biomedical",
      "Human platelets, proteome, phosphoproteome, N-terminal ChaFRADIC, LC-MS";
    dct:contributor [
-     a foaf:Person,
-       ms:1002037;
+     a ms:1002037,
+       foaf:Person;
      dct:identifier "project_submitter";
      foaf:mbox <fiorella.solari@isas.de>;
      foaf:name "Fiorella Andrea Solari";
@@ -29,8 +29,8 @@
      ms:1000589 "fiorella.solari@isas.de";
      ms:1000590 "Leibniz-Institut für Analytische Wissenschaften – ISAS – e.V."
    ],  [
-     a foaf:Person,
-       ms:1002332;
+     a ms:1002332,
+       foaf:Person;
      dct:identifier "project_lab_head";
      foaf:mbox <zahedi@isas.de>;
      foaf:name "Dr. René P. Zahedi";
@@ -46,25 +46,25 @@
      dct:title "Combined quantification of the global proteome, phosphoproteome and proteolytic cleavage to characterize altered platelet functions in the human Scott syndrome.";
      prism:publicationDate "2016-08-17"^^xsd:date;
      prism:publicationName "Molecular & cellular proteomics : MCP";
-     dc:creator "Rene P Zahedi",
-       "Nadine J A Mattheij",
-       "Judith M E M Cosemans",
-       "Julia M Burkhart",
+     dc:creator "Nadine J A Mattheij",
+       "Albert Sickmann",
        "Fiorella A Solari",
-       "Johan W M Heemskerk",
-       "Frauke Swieringa",
+       "Judith M E M Cosemans",
+       "Rene P Zahedi",
+       "Julia M Burkhart",
        "Peter W Collins",
-       "Albert Sickmann";
+       "Frauke Swieringa",
+       "Johan W M Heemskerk";
      dc:date "2016";
      dct:identifier "PMID27535140";
      bibo:pmid "27535140";
-     rdfs:seeAlso <http://dx.doi.org/https://raw.githubusercontent.com/HUPO-PSI/psi-ms-CV/master/psi-ms.obo#1001922>,
-       <http://identifiers.org/pubmed/27535140>,
-       <http://www.ncbi.nlm.nih.gov/pubmed/27535140>
+     rdfs:seeAlso <http://identifiers.org/pubmed/27535140>,
+       <http://www.ncbi.nlm.nih.gov/pubmed/27535140>,
+       <http://dx.doi.org/https://raw.githubusercontent.com/HUPO-PSI/psi-ms-CV/master/psi-ms.obo#1001922>
    ];
-   rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883>,
-     <http://www.ebi.ac.uk/pride/archive/projects/PXD002883>,
-     <https://doi.org/10.6019/PXD002883>;
+   rdfs:seeAlso <http://www.ebi.ac.uk/pride/archive/projects/PXD002883>,
+     <https://doi.org/10.6019/PXD002883>,
+     <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883>;
    ms:1001919 "PXD002883";
    ms:1001922 "10.6019/PXD002883";
    px:datasetFile [
@@ -74,254 +74,9 @@
      rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/Velos02_05399.raw>
    ],  [
      a px:DatasetFileType;
-     rdfs:label "qExPlus02_01375 Rep 2.raw";
-     dct:identifier "FILE_21";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExPlus02_01375 Rep 2.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "qExPlus02_01370 Rep 2.raw";
-     dct:identifier "FILE_17";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExPlus02_01370 Rep 2.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "Velos02_05397.raw";
-     dct:identifier "FILE_5";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/Velos02_05397.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "qExPlus02_01378 Rep 3.raw";
-     dct:identifier "FILE_24";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExPlus02_01378 Rep 3.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "Progenesi_LF_04062016.mgf";
-     dct:identifier "FILE_59";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/Progenesi_LF_04062016.mgf>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "qExactive02_01591 Rep 1.raw";
-     dct:identifier "FILE_31";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive02_01591 Rep 1.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "ChaFRADIC_endo_acetyl_Rep1.msf";
-     dct:identifier "FILE_13";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/ChaFRADIC_endo_acetyl_Rep1.msf>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "ChaFRADIC_Rep 3.msf";
-     dct:identifier "FILE_11";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/ChaFRADIC_Rep 3.msf>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "qExactive03828Global proteome.raw";
-     dct:identifier "FILE_54";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03828Global proteome.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "qExactive03820Global proteome.raw";
-     dct:identifier "FILE_46";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03820Global proteome.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "qExPlus02_01373 Rep 2.raw";
-     dct:identifier "FILE_19";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExPlus02_01373 Rep 2.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "qExactive02_01592 Rep 1.raw";
-     dct:identifier "FILE_32";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive02_01592 Rep 1.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "qExactive03821Global proteome.raw";
-     dct:identifier "FILE_47";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03821Global proteome.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "ChaFRADIC_Rep 2.msf";
-     dct:identifier "FILE_10";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/ChaFRADIC_Rep 2.msf>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "qExPlus02_01368 Rep 2.raw";
-     dct:identifier "FILE_15";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExPlus02_01368 Rep 2.raw>
-   ],  [
-     a px:DatasetFileType;
      rdfs:label "Velos02_05393.raw";
      dct:identifier "FILE_1";
      rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/Velos02_05393.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "qExPlus02_01371 Rep 2.raw";
-     dct:identifier "FILE_18";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExPlus02_01371 Rep 2.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "qExactive03809 Global proteome.raw";
-     dct:identifier "FILE_36";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03809 Global proteome.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "Phosphoproteome.msf";
-     dct:identifier "FILE_33";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/Phosphoproteome.msf>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "Velos02_05396.raw";
-     dct:identifier "FILE_4";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/Velos02_05396.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "Velos02_05394.raw";
-     dct:identifier "FILE_2";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/Velos02_05394.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "qExPlus02_01379 Rep 3.raw";
-     dct:identifier "FILE_25";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExPlus02_01379 Rep 3.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "Velos02_05398.raw";
-     dct:identifier "FILE_6";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/Velos02_05398.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "ChaFRADIC_Rep 1.msf";
-     dct:identifier "FILE_9";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/ChaFRADIC_Rep 1.msf>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "qExPlus02_01381 Rep 3.raw";
-     dct:identifier "FILE_27";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExPlus02_01381 Rep 3.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "Fusion002834.raw";
-     dct:identifier "FILE_56";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/Fusion002834.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "qExactive03811 Global proteome.raw";
-     dct:identifier "FILE_38";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03811 Global proteome.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "Velos02_05395.raw";
-     dct:identifier "FILE_3";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/Velos02_05395.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "qExactive02_01589 Rep 1.raw";
-     dct:identifier "FILE_29";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive02_01589 Rep 1.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "ChaFRADIC_endo_acetyl_Rep3.msf";
-     dct:identifier "FILE_14";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/ChaFRADIC_endo_acetyl_Rep3.msf>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "qExactive02_01588 Rep 1.raw";
-     dct:identifier "FILE_28";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive02_01588 Rep 1.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "iTRAQ Proteome.msf";
-     dct:identifier "FILE_34";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/iTRAQ Proteome.msf>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "qExactive03816Global proteome.raw";
-     dct:identifier "FILE_43";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03816Global proteome.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "qExactive03819Global proteome.raw";
-     dct:identifier "FILE_45";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03819Global proteome.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "qExPlus02_01369 Rep 3.raw";
-     dct:identifier "FILE_16";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExPlus02_01369 Rep 3.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "qExactive03826Global proteome.raw";
-     dct:identifier "FILE_52";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03826Global proteome.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "qExactive03813Global proteome.raw";
-     dct:identifier "FILE_40";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03813Global proteome.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "qExPlus02_01374 Rep 2.raw";
-     dct:identifier "FILE_20";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExPlus02_01374 Rep 2.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "qExactive03810Global proteome.raw";
-     dct:identifier "FILE_37";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03810Global proteome.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "qExactive03817Global proteome.raw";
-     dct:identifier "FILE_44";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03817Global proteome.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "qExactive03829 Global proteome.raw";
-     dct:identifier "FILE_55";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03829 Global proteome.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "qExactive03822Global proteome.raw";
-     dct:identifier "FILE_48";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03822Global proteome.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "qExactive03814Global proteome.raw";
-     dct:identifier "FILE_41";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03814Global proteome.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "ChaFRADIC_endo_acetyl_Rep 2.msf";
-     dct:identifier "FILE_12";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/ChaFRADIC_endo_acetyl_Rep 2.msf>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "qExactive03815Global proteome.raw";
-     dct:identifier "FILE_42";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03815Global proteome.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "Label Free Global proteome.mzid.gz";
-     dct:identifier "FILE_58";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/Label Free Global proteome.mzid.gz>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "Fusion002835.raw";
-     dct:identifier "FILE_57";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/Fusion002835.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "qExactive03824Global proteome.raw";
-     dct:identifier "FILE_50";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03824Global proteome.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "Velos02_05400.raw";
-     dct:identifier "FILE_8";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/Velos02_05400.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "qExactive02_01590 Rep 1.raw";
-     dct:identifier "FILE_30";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive02_01590 Rep 1.raw>
    ],  [
      a px:DatasetFileType;
      rdfs:label "qExPlus02_01376 Rep 2.raw";
@@ -329,19 +84,109 @@
      rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExPlus02_01376 Rep 2.raw>
    ],  [
      a px:DatasetFileType;
+     rdfs:label "Velos02_05395.raw";
+     dct:identifier "FILE_3";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/Velos02_05395.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "Velos02_05396.raw";
+     dct:identifier "FILE_4";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/Velos02_05396.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExPlus02_01373 Rep 2.raw";
+     dct:identifier "FILE_19";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExPlus02_01373 Rep 2.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "ChaFRADIC_Rep 1.msf";
+     dct:identifier "FILE_9";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/ChaFRADIC_Rep 1.msf>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExactive02_01589 Rep 1.raw";
+     dct:identifier "FILE_29";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive02_01589 Rep 1.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "Phosphoproteome.msf";
+     dct:identifier "FILE_33";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/Phosphoproteome.msf>
+   ],  [
+     a px:DatasetFileType;
      rdfs:label "qExPlus02_01380 Rep 3.raw";
      dct:identifier "FILE_26";
      rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExPlus02_01380 Rep 3.raw>
    ],  [
      a px:DatasetFileType;
-     rdfs:label "qExactive03812Global proteome.raw";
-     dct:identifier "FILE_39";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03812Global proteome.raw>
+     rdfs:label "Fusion002834.raw";
+     dct:identifier "FILE_56";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/Fusion002834.raw>
    ],  [
      a px:DatasetFileType;
-     rdfs:label "qExactive03827Global proteome.raw";
-     dct:identifier "FILE_53";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03827Global proteome.raw>
+     rdfs:label "qExactive02_01592 Rep 1.raw";
+     dct:identifier "FILE_32";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive02_01592 Rep 1.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "Velos02_05400.raw";
+     dct:identifier "FILE_8";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/Velos02_05400.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "ChaFRADIC_Rep 2.msf";
+     dct:identifier "FILE_10";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/ChaFRADIC_Rep 2.msf>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "Velos02_05397.raw";
+     dct:identifier "FILE_5";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/Velos02_05397.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "ChaFRADIC_endo_acetyl_Rep3.msf";
+     dct:identifier "FILE_14";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/ChaFRADIC_endo_acetyl_Rep3.msf>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExPlus02_01368 Rep 2.raw";
+     dct:identifier "FILE_15";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExPlus02_01368 Rep 2.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "ChaFRADIC_endo_acetyl_Rep 2.msf";
+     dct:identifier "FILE_12";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/ChaFRADIC_endo_acetyl_Rep 2.msf>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "Velos02_05398.raw";
+     dct:identifier "FILE_6";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/Velos02_05398.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExactive02_01590 Rep 1.raw";
+     dct:identifier "FILE_30";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive02_01590 Rep 1.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExPlus02_01377 Rep 3.raw";
+     dct:identifier "FILE_23";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExPlus02_01377 Rep 3.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "Progenesi_LF_04062016.mgf";
+     dct:identifier "FILE_59";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/Progenesi_LF_04062016.mgf>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExactive03824Global proteome.raw";
+     dct:identifier "FILE_50";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03824Global proteome.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExPlus02_01379 Rep 3.raw";
+     dct:identifier "FILE_25";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExPlus02_01379 Rep 3.raw>
    ],  [
      a px:DatasetFileType;
      rdfs:label "qExactive03823Global proteome.raw";
@@ -349,9 +194,129 @@
      rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03823Global proteome.raw>
    ],  [
      a px:DatasetFileType;
+     rdfs:label "qExactive03815Global proteome.raw";
+     dct:identifier "FILE_42";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03815Global proteome.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "Velos02_05394.raw";
+     dct:identifier "FILE_2";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/Velos02_05394.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExactive03822Global proteome.raw";
+     dct:identifier "FILE_48";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03822Global proteome.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExPlus02_01371 Rep 2.raw";
+     dct:identifier "FILE_18";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExPlus02_01371 Rep 2.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "ChaFRADIC_endo_acetyl_Rep1.msf";
+     dct:identifier "FILE_13";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/ChaFRADIC_endo_acetyl_Rep1.msf>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExactive03812Global proteome.raw";
+     dct:identifier "FILE_39";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03812Global proteome.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExactive02_01591 Rep 1.raw";
+     dct:identifier "FILE_31";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive02_01591 Rep 1.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExactive03816Global proteome.raw";
+     dct:identifier "FILE_43";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03816Global proteome.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExactive03810Global proteome.raw";
+     dct:identifier "FILE_37";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03810Global proteome.raw>
+   ],  [
+     a px:DatasetFileType;
      rdfs:label "qExactive03808 Global proteome.raw";
      dct:identifier "FILE_35";
      rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03808 Global proteome.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExactive03820Global proteome.raw";
+     dct:identifier "FILE_46";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03820Global proteome.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "ChaFRADIC_Rep 3.msf";
+     dct:identifier "FILE_11";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/ChaFRADIC_Rep 3.msf>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExPlus02_01370 Rep 2.raw";
+     dct:identifier "FILE_17";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExPlus02_01370 Rep 2.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExPlus02_01375 Rep 2.raw";
+     dct:identifier "FILE_21";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExPlus02_01375 Rep 2.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExPlus02_01369 Rep 3.raw";
+     dct:identifier "FILE_16";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExPlus02_01369 Rep 3.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExactive03827Global proteome.raw";
+     dct:identifier "FILE_53";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03827Global proteome.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExactive03829 Global proteome.raw";
+     dct:identifier "FILE_55";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03829 Global proteome.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExactive03819Global proteome.raw";
+     dct:identifier "FILE_45";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03819Global proteome.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "Label Free Global proteome.mzid.gz";
+     dct:identifier "FILE_58";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/Label Free Global proteome.mzid.gz>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExactive03828Global proteome.raw";
+     dct:identifier "FILE_54";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03828Global proteome.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExPlus02_01381 Rep 3.raw";
+     dct:identifier "FILE_27";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExPlus02_01381 Rep 3.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExPlus02_01374 Rep 2.raw";
+     dct:identifier "FILE_20";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExPlus02_01374 Rep 2.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExactive03811 Global proteome.raw";
+     dct:identifier "FILE_38";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03811 Global proteome.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExactive03813Global proteome.raw";
+     dct:identifier "FILE_40";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03813Global proteome.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "iTRAQ Proteome.msf";
+     dct:identifier "FILE_34";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/iTRAQ Proteome.msf>
    ],  [
      a px:DatasetFileType;
      rdfs:label "qExactive03825Global proteome.raw";
@@ -359,19 +324,54 @@
      rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03825Global proteome.raw>
    ],  [
      a px:DatasetFileType;
-     rdfs:label "qExPlus02_01377 Rep 3.raw";
-     dct:identifier "FILE_23";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExPlus02_01377 Rep 3.raw>
+     rdfs:label "qExactive03821Global proteome.raw";
+     dct:identifier "FILE_47";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03821Global proteome.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExactive03817Global proteome.raw";
+     dct:identifier "FILE_44";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03817Global proteome.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExactive03814Global proteome.raw";
+     dct:identifier "FILE_41";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03814Global proteome.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExPlus02_01378 Rep 3.raw";
+     dct:identifier "FILE_24";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExPlus02_01378 Rep 3.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExactive03826Global proteome.raw";
+     dct:identifier "FILE_52";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03826Global proteome.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExactive03809 Global proteome.raw";
+     dct:identifier "FILE_36";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive03809 Global proteome.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "qExactive02_01588 Rep 1.raw";
+     dct:identifier "FILE_28";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/qExactive02_01588 Rep 1.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "Fusion002835.raw";
+     dct:identifier "FILE_57";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD002883/Fusion002835.raw>
    ];
    px:datasetOrigin pride:0000402;
    px:hostingRepository <https://www.ebi.ac.uk/pride/archive/>;
    px:instrument ms:1002416;
-   px:modification unimod:28,
-     unimod:35,
-     unimod:1,
+   px:modification unimod:385,
      unimod:27,
-     unimod:385,
-     unimod:4;
+     unimod:35,
+     unimod:4,
+     unimod:28,
+     unimod:1;
    px:repositoryRecord [
      a px:RepositoryRecordType;
      rdfs:label "PRIDE project";
@@ -386,8 +386,8 @@
      a px:SpeciesType;
      rdfs:label "Homo sapiens (Human)";
      dct:identifier "9606";
-     rdfs:seeAlso <http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9606>,
-       <http://identifiers.org/taxonomy/9606>;
+     rdfs:seeAlso <http://identifiers.org/taxonomy/9606>,
+       <http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9606>;
      ms:1001467 "9606";
      ms:1001469 "Homo sapiens (Human)"
    ] .
