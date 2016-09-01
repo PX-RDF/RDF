@@ -207,13 +207,13 @@ def xml2rdf(xml)
     
     element.elements.each do |subelement|
       cvs = cv(subelement)
-      if cvs[:accession] == "MS:1001467"
+      if cvs[:accession] == "MS:1001467"    # taxonomy: NCBI TaxID
         g << [species, rdfs.seeAlso, RDF::URI("http://identifiers.org/taxonomy/#{cvs[:value]}")]
         g << [species, rdfs.seeAlso, RDF::URI("http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=#{cvs[:value]}")]
         g << [species, dct.identifier, cvs[:value]]
-      elsif cvs[:accession] == "MS:1001469"
+      elsif cvs[:accession] == "MS:1001469" # taxonomy: scientific name
         g << [species, rdfs.label, cvs[:value]]
-      elsif cvs[:accession] == "MS:1001468"
+      elsif cvs[:accession] == "MS:1001468" # taxonomy: common name
         g << [species, skos.altLabel, cvs[:value]]
       end
       g << [species, cvs[:uri], cvs[:value]]
@@ -309,7 +309,6 @@ def xml2rdf(xml)
         pubmed  = Net::HTTP.get URI.parse("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=#{cvs[:value]}&retmode=xml")
         pubmed  = REXML::Document.new(pubmed)
         article = pubmed.elements['PubmedArticleSet/PubmedArticle/MedlineCitation/Article/']
-        #doi     = article.elements['ELocationID'].text if article.elements['ELocationID'].attributes['EIdType'] == "doi"
         doi     = pubmed.elements['PubmedArticleSet/PubmedArticle/PubmedData/ArticleIdList/ArticleId'].text if pubmed.elements['PubmedArticleSet/PubmedArticle/PubmedData/ArticleIdList/ArticleId'].attributes['IdType'] == "doi"
         year    = article.elements['Journal/JournalIssue/PubDate/Year'].text if article.elements['Journal/JournalIssue/PubDate/Year']
         month   = @month[article.elements['Journal/JournalIssue/PubDate/Month'].text] if article.elements['Journal/JournalIssue/PubDate/Month']
@@ -398,7 +397,7 @@ def xml2rdf(xml)
       subelement.elements.each('SourceFileRef') do |sse|
         ref = RDF::Node.new
         g << [repositoryRecord, px.sourceFileRef, ref]
-        g << [ref, RDF.type, px.refType]
+        g << [ref, RDF.type, px.RefType]
         g << [ref, dct.identifier, sse.attributes['ref']]
       end
       
@@ -406,7 +405,7 @@ def xml2rdf(xml)
       subelement.elements.each('PublicationRef') do |sse|
         ref = RDF::Node.new
         g << [repositoryRecord, px.publicationRef, ref]
-        g << [ref, RDF.type, px.refType]
+        g << [ref, RDF.type, px.RefType]
         g << [ref, dct.identifier, sse.attributes['ref']]
       end
       
@@ -414,7 +413,7 @@ def xml2rdf(xml)
       subelement.elements.each('InstrumentRef') do |sse|
         ref = RDF::Node.new
         g << [repositoryRecord, px.instrumentRef, ref]
-        g << [ref, RDF.type, px.refType]
+        g << [ref, RDF.type, px.RefType]
         g << [ref, dct.identifier, sse.attributes['ref']]
       end
       
@@ -434,7 +433,6 @@ def xml2rdf(xml)
           s3e.elements.each do |s4e|
             cvs = cv(s4e)
             g << [sample, rdfs.seeAlso, cvs[:uri]]
-            g << [cvs[:uri], RDF.type, owl.Class]
             g << [cvs[:uri], rdfs.label, cvs[:name]]
           end
         end
@@ -442,14 +440,10 @@ def xml2rdf(xml)
       
       ###### ModificationList min=0 max=1
       if sse = subelement.elements['ModificationList']
-        modificationList = RDF::Node.new
-        g << [repositoryRecord, px.modificationList, modificationList]
-        g << [modificationList, RDF.type, px.ModificationListType]
-        
         # sub3element
         sse.elements.each do |s3e|
           cvs = cv(s3e)
-          g << [modificationList, rdfs.seeAlso, cvs[:uri]]
+          g << [repositoryRecord, px.modification, cvs[:uri]]
           g << [cvs[:uri], RDF.type, px.ModificationType]
           g << [cvs[:uri], rdfs.label, cvs[:name]]
           g << [cvs[:uri], hasValue, cvs[:value]] if cvs[:value]
@@ -462,7 +456,7 @@ def xml2rdf(xml)
 end
 
 # for test
-#xml = get_xml("PXD002464")
+#xml = get_xml("PXD000449")
 #puts xml2rdf(xml).dump(:ttl)
 
 
