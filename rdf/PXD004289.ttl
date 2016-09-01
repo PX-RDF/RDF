@@ -16,9 +16,18 @@
    rdfs:label "Site-specific glycosylation of donkey milk lactoferrin investigated  by High Resolution Mass Spectrometry";
    dct:title "Site-specific glycosylation of donkey milk lactoferrin investigated  by High Resolution Mass Spectrometry";
    dc:description "A comprehensive glycosylation profile of donkey lactoferrin, isolated by ion exchange chromatography from an individual milk sample, was obtained by means of chymotryptic digestion, TiO2 and HILIC enrichment, reversed-phase high performance liquid chromatography, electrospray mass spectrometry,  and high collision dissociation fragmentation. The results obtained allowed the identification of 26 different glycan structures, including high mannose, complex and hybrid N-glycans, linked to the protein backbone via an amide bond to asparagine residues located at the positions 137, 281 and 476. Altogether, the N-glycan structures determined revealed that in donkey milk lactoferrin most of the N-glycans identified are neutral complex/hybrid. Actually, 10 neutral non-fucosylated complex/hybrid N-glycans and 4 neutral fucosylated complex/hybrid N-glycans were found. In addition, 2 high mannose N-glycans, 4 sialylated fucosylated complex/hybrid N-glycans and 6 sialylated non-fucosylatedN-glycans, one of which containing N-glycolylneuramin acid (Neu5Gc), were found. A comparison of the glycosylation profile of donkey milk lactoferrin with respect to that of human, bovine and goat milk lactoferrin is reported.";
-   dc:subject "Lactoferrin glycosylation · Donkey milk · N-glycan structures · TiO2 and HILIC enrichment · Mass spectrometry",
-     "Biological";
+   dc:subject "Biological",
+     "Lactoferrin glycosylation · Donkey milk · N-glycan structures · TiO2 and HILIC enrichment · Mass spectrometry";
    dct:contributor [
+     a foaf:Person,
+       ms:1002332;
+     dct:identifier "project_lab_head";
+     foaf:mbox <sfoti@unict.it>;
+     foaf:name "Salvatore Foti";
+     ms:1000586 "Salvatore Foti";
+     ms:1000589 "sfoti@unict.it";
+     ms:1000590 "Organic Mass Spectrometry Laboratory,  Department of Chemical Sciences, University of Catania, Viale A. Doria 6, I-95125 Catania, Italy"
+   ],  [
      a foaf:Person,
        ms:1002037;
      dct:identifier "project_submitter";
@@ -27,56 +36,42 @@
      ms:1000586 "Salvatore Foti";
      ms:1000589 "sfoti@unict.it";
      ms:1000590 "University of Catania"
-   ],  [
-     a ms:1002332,
-       foaf:Person;
-     dct:identifier "project_lab_head";
-     foaf:mbox <sfoti@unict.it>;
-     foaf:name "Salvatore Foti";
-     ms:1000586 "Salvatore Foti";
-     ms:1000589 "sfoti@unict.it";
-     ms:1000590 "Organic Mass Spectrometry Laboratory,  Department of Chemical Sciences, University of Catania, Viale A. Doria 6, I-95125 Catania, Italy"
    ];
    dct:date "2016-08-25"^^xsd:date;
    dct:identifier "PXD004289";
    dct:references [
-     a px:PublicationType,
-       bibo:Article;
+     a bibo:Article,
+       px:PublicationType;
      dct:title "Site-specific glycosylation of donkey milk lactoferrin investigated by high-resolution mass spectrometry.";
      prism:publicationDate "2016-08-22"^^xsd:date;
      prism:publicationName "Amino acids";
-     dc:creator "Morten I Rasmussen",
+     dc:creator "Peter Roepstorff",
+       "Morten I Rasmussen",
+       "Rosaria Saletti",
+       "Vera Muccilli",
        "Salvatore Foti",
        "Serafina Gallina",
-       "Vincenzo Cunsolo",
-       "Vera Muccilli",
-       "Peter Roepstorff",
-       "Rosaria Saletti";
+       "Vincenzo Cunsolo";
      dc:date "2016";
      dct:identifier "PMID27550041";
      bibo:pmid "27550041";
      rdfs:seeAlso <http://www.ncbi.nlm.nih.gov/pubmed/27550041>,
-       <http://identifiers.org/pubmed/27550041>,
-       <http://dx.doi.org/10.1007/s00726-016-2315-z>
+       <http://dx.doi.org/10.1007/s00726-016-2315-z>,
+       <http://identifiers.org/pubmed/27550041>
    ];
-   rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004289>,
-     <http://www.ebi.ac.uk/pride/archive/projects/PXD004289>;
+   rdfs:seeAlso <http://www.ebi.ac.uk/pride/archive/projects/PXD004289>,
+     <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004289>;
    ms:1001919 "PXD004289";
    px:datasetFile [
+     a px:DatasetFileType;
+     rdfs:label "Qex02581-chimotrypsin-TiO2.raw";
+     dct:identifier "FILE_5";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004289/Qex02581-chimotrypsin-TiO2.raw>
+   ],  [
      a px:DatasetFileType;
      rdfs:label "Qex02580-chimotrypsin-TiO2.raw";
      dct:identifier "FILE_4";
      rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004289/Qex02580-chimotrypsin-TiO2.raw>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "Qex02586 -chimotrypsin-TiO2-HILIC.mgf";
-     dct:identifier "FILE_2";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004289/Qex02586 -chimotrypsin-TiO2-HILIC.mgf>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "Qex02587-chimotrypsin-TiO2-HILIC.mgf";
-     dct:identifier "FILE_3";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004289/Qex02587-chimotrypsin-TiO2-HILIC.mgf>
    ],  [
      a px:DatasetFileType;
      rdfs:label "results.XLS";
@@ -84,14 +79,14 @@
      rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004289/results.XLS>
    ],  [
      a px:DatasetFileType;
+     rdfs:label "Qex02586-chimotrypsin-TiO2-HILIC.raw";
+     dct:identifier "FILE_6";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004289/Qex02586-chimotrypsin-TiO2-HILIC.raw>
+   ],  [
+     a px:DatasetFileType;
      rdfs:label "Qex02581-chimotrypsin-Tio2.mgf";
      dct:identifier "FILE_1";
      rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004289/Qex02581-chimotrypsin-Tio2.mgf>
-   ],  [
-     a px:DatasetFileType;
-     rdfs:label "Qex02587-chimotrypsin-TiO2-HILIC.raw";
-     dct:identifier "FILE_7";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004289/Qex02587-chimotrypsin-TiO2-HILIC.raw>
    ],  [
      a px:DatasetFileType;
      rdfs:label "Qex02580 -chimotrypsin-TiO2.mgf";
@@ -99,14 +94,19 @@
      rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004289/Qex02580 -chimotrypsin-TiO2.mgf>
    ],  [
      a px:DatasetFileType;
-     rdfs:label "Qex02586-chimotrypsin-TiO2-HILIC.raw";
-     dct:identifier "FILE_6";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004289/Qex02586-chimotrypsin-TiO2-HILIC.raw>
+     rdfs:label "Qex02586 -chimotrypsin-TiO2-HILIC.mgf";
+     dct:identifier "FILE_2";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004289/Qex02586 -chimotrypsin-TiO2-HILIC.mgf>
    ],  [
      a px:DatasetFileType;
-     rdfs:label "Qex02581-chimotrypsin-TiO2.raw";
-     dct:identifier "FILE_5";
-     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004289/Qex02581-chimotrypsin-TiO2.raw>
+     rdfs:label "Qex02587-chimotrypsin-TiO2-HILIC.raw";
+     dct:identifier "FILE_7";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004289/Qex02587-chimotrypsin-TiO2-HILIC.raw>
+   ],  [
+     a px:DatasetFileType;
+     rdfs:label "Qex02587-chimotrypsin-TiO2-HILIC.mgf";
+     dct:identifier "FILE_3";
+     rdfs:seeAlso <ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2016/08/PXD004289/Qex02587-chimotrypsin-TiO2-HILIC.mgf>
    ];
    px:datasetOrigin pride:0000402;
    px:hostingRepository <https://www.ebi.ac.uk/pride/archive/>;
