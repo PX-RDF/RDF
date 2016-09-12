@@ -1,6 +1,5 @@
 # ProteomeXchange RDF
 Conversion codes from PX-XML to PX-RDF
-<<<<<<< Local Changes
 
 =======
 
@@ -12,4 +11,3 @@ Conversion codes from PX-XML to PX-RDF
 * ruby bin/pxxml2rdf.rb \<PXID list file\> (\<PXID\> optional for resume)
 * e.g.
 `ruby bin/pxxml2rdf.rb list/sampleidlist.txt`
->>>>>>> External Changes
