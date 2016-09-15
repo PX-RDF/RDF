@@ -11,3 +11,7 @@ Conversion codes from PX-XML to PX-RDF
 * ruby bin/pxxml2rdf.rb \<PXID list file\> (\<PXID\> optional for resume)
 * e.g.
 `ruby bin/pxxml2rdf.rb list/sampleidlist.txt`
+
+### References
+* [RDF schema](PX-RDF.png)
+* [Poster at HUPO2016](HUPO2016_poster.pdf)
